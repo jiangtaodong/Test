@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.byzp.mapper.ByTeacherMapper">
+
+<insert id="insertteacherinfo" parameterType="com.byzp.pojo.ByStudent">
+
+  insert into by_teacher set tname=#{name},tgender=#{gender},tage=#{age},tclasses=#{classes},tnumber=#{identity_number},
+  tidentity=#{identity},taddress=#{address},tphone=#{phone},timage=#{image}
+
+</insert>
+
+  <select id="liketeacherinfo" parameterType="com.byzp.pojo.ByTeacher" resultType="com.byzp.pojo.ByTeacher">
+
+    select * from by_login bl,by_teacher bt where bl.username=bt.tnumber
+
+    <choose>
+
+      <when test="tnumber != null and tnumber != ''">
+
+        and tnumber like concat(concat('%',#{tnumber}),'%')
+
+      </when>
+
+      <when test="tname != null and tname != ''">
+
+        and tname like concat(concat('%',#{tname}),'%')
+
+      </when>
+
+    </choose>
+
+  </select>
+
+  <select id="importbyteacherdata" resultType="com.byzp.pojo.ByTeacher">
+
+    select id,tname,tgender,tage,tclasses,tnumber,tidentity,taddress,tphone,timage from by_teacher
+
+  </select>
+
+</mapper>

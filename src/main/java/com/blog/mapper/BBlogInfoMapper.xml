@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.blog.mapper.BBlogInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.blog.pojo.BBlogInfo" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="b_author" property="bAuthor" jdbcType="VARCHAR" />
+    <result column="b_time" property="bTime" jdbcType="TIMESTAMP" />
+    <result column="b_copyRight" property="bCopyright" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.blog.pojo.BBlogInfo" extends="BaseResultMap" >
+    <result column="b_content" property="bContent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, b_author, b_time, b_copyRight
+  </sql>
+  <sql id="Blob_Column_List" >
+    b_content
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from b_bloginfo
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from b_bloginfo
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.blog.pojo.BBlogInfo" >
+    insert into b_bloginfo (id, b_author, b_time, 
+      b_copyRight, b_content)
+    values (#{id,jdbcType=INTEGER}, #{bAuthor,jdbcType=VARCHAR}, #{bTime,jdbcType=TIMESTAMP}, 
+      #{bCopyright,jdbcType=VARCHAR}, #{bContent,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.blog.pojo.BBlogInfo" >
+    insert into b_bloginfo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="bAuthor != null" >
+        b_author,
+      </if>
+      <if test="bTime != null" >
+        b_time,
+      </if>
+      <if test="bCopyright != null" >
+        b_copyRight,
+      </if>
+      <if test="bContent != null" >
+        b_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="bAuthor != null" >
+        #{bAuthor,jdbcType=VARCHAR},
+      </if>
+      <if test="bTime != null" >
+        #{bTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bCopyright != null" >
+        #{bCopyright,jdbcType=VARCHAR},
+      </if>
+      <if test="bContent != null" >
+        #{bContent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.blog.pojo.BBlogInfo" >
+    update b_bloginfo
+    <set >
+      <if test="bAuthor != null" >
+        b_author = #{bAuthor,jdbcType=VARCHAR},
+      </if>
+      <if test="bTime != null" >
+        b_time = #{bTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bCopyright != null" >
+        b_copyRight = #{bCopyright,jdbcType=VARCHAR},
+      </if>
+      <if test="bContent != null" >
+        b_content = #{bContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.blog.pojo.BBlogInfo" >
+    update b_bloginfo
+    set b_author = #{bAuthor,jdbcType=VARCHAR},
+      b_time = #{bTime,jdbcType=TIMESTAMP},
+      b_copyRight = #{bCopyright,jdbcType=VARCHAR},
+      b_content = #{bContent,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.blog.pojo.BBlogInfo" >
+    update b_bloginfo
+    set b_author = #{bAuthor,jdbcType=VARCHAR},
+      b_time = #{bTime,jdbcType=TIMESTAMP},
+      b_copyRight = #{bCopyright,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
