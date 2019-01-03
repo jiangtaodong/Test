@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="byzp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="byzp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="byzp:war exploded" />
+    </root>
+  </artifact>
+</component>
