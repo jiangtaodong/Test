@@ -906,7 +906,7 @@
       <workItem from="1546499501927" duration="204000" />
       <workItem from="1546505170340" duration="4015000" />
       <workItem from="1546849618107" duration="65000" />
-      <workItem from="1546856006187" duration="180000" />
+      <workItem from="1546856006187" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="20190103-commit">
       <created>1546507048863</created>
@@ -922,7 +922,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546856097860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20190107-byzp-commit">
+      <created>1546856197952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546856197952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -958,7 +965,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="603868000" />
+    <option name="totallyTimeSpent" value="603895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
