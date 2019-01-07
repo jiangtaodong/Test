@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.byzp.mapper.ByStudentMapper">
+ <!-- <resultMap id="BaseResultMap" type="com.byzp.pojo.ByStudent">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="classes" jdbcType="VARCHAR" property="classes" />
+    <result column="identity_number" jdbcType="INTEGER" property="identityNumber" />
+    <result column="identity" jdbcType="VARCHAR" property="identity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, gender, age, classes, identity_number, identity
+  </sql>-->
+
+    <select id="selectallstudent" resultType="com.byzp.pojo.ByCount">
+
+        select * from by_student bs,by_count bc where bs.identity_number = bc.student_number order by bs.identity_number asc
+
+    </select>
+
+  <insert id="insertuser" parameterType="com.byzp.pojo.ByStudent">
+
+      insert into by_student set name=#{name},gender=#{gender},age=#{age},classes=#{classes},identity_number=#{identity_number},
+      identity=#{identity},address=#{address},phone=#{phone},image=#{image}
+
+  </insert>
+
+    <select id="studentclsses" resultType="com.byzp.pojo.ByStudent">
+
+        select distinct classes from by_student
+
+    </select>
+
+    <select id="selectstudentinfobyclasses" parameterType="String" resultType="com.byzp.pojo.ByCount">
+
+        select * from by_student bs,by_count bc where bs.identity_number = bc.student_number and bs.classes=#{classes}
+
+    </select>
+
+    <select id="likestudentinfo" parameterType="com.byzp.pojo.ByCount" resultType="com.byzp.pojo.ByCount">
+
+        select * from
+          by_login bl,by_student bs,by_count bc
+        where
+            bl.username = bs.identity_number
+        and
+            bs.identity_number = bc.student_number
+
+            <choose>
+                
+                <when test="identity_number != null and identity_number != ''">
+
+                    and bs.identity_number like concat(concat('%',#{identity_number}),'%')
+
+                </when>
+
+                <when test="name != null and name != ''">
+
+                    and bs.name like concat(concat('%',#{name}),'%')
+
+                </when>
+                
+            </choose>
+
+    </select>
+
+    <select id="selectallstudentcount" resultType="int">
+
+        select count(*) from by_student
+
+    </select>
+
+    <select id="pagecount1" parameterType="int" resultType="map">
+
+         select * from by_student limit #{startrows},#{countrows}
+
+    </select>
+
+    <select id="countstudent" resultMap="studentresultmap">
+
+        select * from by_student
+
+    </select>
+
+    <resultMap id="studentresultmap" type="com.byzp.pojo.ByStudent">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="gender" jdbcType="VARCHAR" property="gender" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="classes" jdbcType="VARCHAR" property="classes" />
+        <result column="identity_number" jdbcType="INTEGER" property="identity_number" />
+        <result column="identity" jdbcType="VARCHAR" property="identity" />
+        <result column="address" jdbcType="VARCHAR" property="address" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+    </resultMap>
+
+    <select id="pagecount2" parameterType="int" resultMap="studentresultmap">
+
+        select * from by_student limit #{startrows},#{countrows}
+
+    </select>
+
+    <!--                                           一对多                                                                -->
+    <!-- 嵌套查询 -->
+    <resultMap id="studentcountresultmap" type="com.byzp.pojo.ByStudent">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="gender" jdbcType="VARCHAR" property="gender" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="classes" jdbcType="VARCHAR" property="classes" />
+        <result column="identity_number" jdbcType="INTEGER" property="identity_number" />
+        <result column="identity" jdbcType="VARCHAR" property="identity" />
+        <result column="address" jdbcType="VARCHAR" property="address" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+        <!-- property="sclist" 对应student实体中的sclist属性 -->
+        <collection property="sclist" ofType="com.byzp.pojo.ByCount">
+            <id column="id" jdbcType="INTEGER" property="id" />
+            <result column="student_number" jdbcType="VARCHAR" property="student_number" />
+            <result column="yuwen" jdbcType="INTEGER" property="yuwen" />
+            <result column="shuxue" jdbcType="INTEGER" property="shuxue" />
+            <result column="yingyu" jdbcType="INTEGER" property="yingyu" />
+            <result column="tiyu" jdbcType="INTEGER" property="tiyu" />
+            <result column="zongfen" jdbcType="INTEGER" property="zongfen" />
+        </collection>
+    </resultMap>
+
+    <select id="selectstudentcount" resultMap="studentcountresultmap">
+
+        select * from by_student bs,by_Count bc where bs.identity_number = bc.student_number and bc.student_number=1401873101
+
+    </select>
+
+    <!-- 关联嵌套查询 -->
+    <resultMap id="studentcountresultmap2" type="com.byzp.pojo.ByStudent">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="gender" jdbcType="VARCHAR" property="gender" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="classes" jdbcType="VARCHAR" property="classes" />
+        <result column="identity_number" jdbcType="INTEGER" property="identity_number" />
+        <result column="identity" jdbcType="VARCHAR" property="identity" />
+        <result column="address" jdbcType="VARCHAR" property="address" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+       <collection column="identity_number" property="sclist" ofType="com.byzp.pojo.ByCount" select="getcount"></collection>
+    </resultMap>
+
+    <select id="getcount" resultMap="countmap">
+
+        select student_number,yuwen,shuxue from by_count where student_number="1401873102"
+
+    </select>
+
+    <resultMap id="countmap" type="com.byzp.pojo.ByCount">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="student_number" jdbcType="VARCHAR" property="student_number" />
+        <result column="yuwen" jdbcType="INTEGER" property="yuwen" />
+        <result column="shuxue" jdbcType="INTEGER" property="shuxue" />
+        <result column="yingyu" jdbcType="INTEGER" property="yingyu" />
+        <result column="tiyu" jdbcType="INTEGER" property="tiyu" />
+        <result column="zongfen" jdbcType="INTEGER" property="zongfen" />
+    </resultMap>
+
+    <select id="selectstudentcount2" resultMap="studentcountresultmap2">
+
+        select name,gender,age,identity_number from by_student where identity_number="1401873102"
+
+    </select>
+
+    <!--                                           多对一                                                                -->
+    <resultMap id="manytooone" type="com.byzp.pojo.ByStudent">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="gender" jdbcType="VARCHAR" property="gender" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="classes" jdbcType="VARCHAR" property="classes" />
+        <result column="identity_number" jdbcType="INTEGER" property="identity_number" />
+        <result column="identity" jdbcType="VARCHAR" property="identity" />
+        <result column="address" jdbcType="VARCHAR" property="address" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+       <association property="byCount" javaType="com.byzp.pojo.ByCount">
+           <id column="id" jdbcType="INTEGER" property="id" />
+           <result column="student_number" jdbcType="VARCHAR" property="student_number" />
+           <result column="yuwen" jdbcType="INTEGER" property="yuwen" />
+           <result column="shuxue" jdbcType="INTEGER" property="shuxue" />
+           <result column="yingyu" jdbcType="INTEGER" property="yingyu" />
+           <result column="tiyu" jdbcType="INTEGER" property="tiyu" />
+           <result column="zongfen" jdbcType="INTEGER" property="zongfen" />
+       </association>
+    </resultMap>
+
+    <select id="selectsc" resultMap="manytooone">
+
+        select name,age,identity_number,student_number,yuwen from by_student,by_count where identity_number=student_number
+
+    </select>
+
+
+
+  <!--<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from by_student
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from by_student
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.byzp.pojo.ByStudent">
+    insert into by_student (id, name, gender, 
+      age, classes, identity_number, 
+      identity)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{classes,jdbcType=VARCHAR}, #{identityNumber,jdbcType=INTEGER}, 
+      #{identity,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.byzp.pojo.ByStudent">
+    insert into by_student
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="classes != null">
+        classes,
+      </if>
+      <if test="identityNumber != null">
+        identity_number,
+      </if>
+      <if test="identity != null">
+        identity,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null">
+        #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="identityNumber != null">
+        #{identityNumber,jdbcType=INTEGER},
+      </if>
+      <if test="identity != null">
+        #{identity,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.byzp.pojo.ByStudent">
+    update by_student
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        gender = #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null">
+        classes = #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="identityNumber != null">
+        identity_number = #{identityNumber,jdbcType=INTEGER},
+      </if>
+      <if test="identity != null">
+        identity = #{identity,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.byzp.pojo.ByStudent">
+    update by_student
+    set name = #{name,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      classes = #{classes,jdbcType=VARCHAR},
+      identity_number = #{identityNumber,jdbcType=INTEGER},
+      identity = #{identity,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.byzp.pojo.ByStudent">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="classes" jdbcType="VARCHAR" property="classes" />
+    <result column="identity_number" jdbcType="INTEGER" property="identityNumber" />
+    <result column="identity" jdbcType="VARCHAR" property="identity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, gender, age, classes, identity_number, identity
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from by_student
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from by_student
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.byzp.pojo.ByStudent">
+    insert into by_student (id, name, gender, 
+      age, classes, identity_number, 
+      identity)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{classes,jdbcType=VARCHAR}, #{identityNumber,jdbcType=INTEGER}, 
+      #{identity,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.byzp.pojo.ByStudent">
+    insert into by_student
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="classes != null">
+        classes,
+      </if>
+      <if test="identityNumber != null">
+        identity_number,
+      </if>
+      <if test="identity != null">
+        identity,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null">
+        #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="identityNumber != null">
+        #{identityNumber,jdbcType=INTEGER},
+      </if>
+      <if test="identity != null">
+        #{identity,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.byzp.pojo.ByStudent">
+    update by_student
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        gender = #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null">
+        classes = #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="identityNumber != null">
+        identity_number = #{identityNumber,jdbcType=INTEGER},
+      </if>
+      <if test="identity != null">
+        identity = #{identity,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.byzp.pojo.ByStudent">
+    update by_student
+    set name = #{name,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      classes = #{classes,jdbcType=VARCHAR},
+      identity_number = #{identityNumber,jdbcType=INTEGER},
+      identity = #{identity,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.byzp.pojo.ByStudent">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="classes" jdbcType="VARCHAR" property="classes" />
+    <result column="identity_number" jdbcType="INTEGER" property="identityNumber" />
+    <result column="identity" jdbcType="VARCHAR" property="identity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, gender, age, classes, identity_number, identity
+  </sql>
+
+  <insert id="insertuser" parameterType="com.byzp.pojo.ByStudent">
+
+    insert into by_student set name=#{name},gender=#{gender},age=#{age},classes=#{classes},identity_number=#{identityNumber},identity=#{identity}
+
+  </insert>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from by_student
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from by_student
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.byzp.pojo.ByStudent">
+    insert into by_student (id, name, gender, 
+      age, classes, student_number
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{classes,jdbcType=VARCHAR}, #{studentNumber,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.byzp.pojo.ByStudent">
+    insert into by_student
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="classes != null">
+        classes,
+      </if>
+      <if test="studentNumber != null">
+        student_number,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null">
+        #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="studentNumber != null">
+        #{studentNumber,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.byzp.pojo.ByStudent">
+    update by_student
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        gender = #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="classes != null">
+        classes = #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="studentNumber != null">
+        student_number = #{studentNumber,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.byzp.pojo.ByStudent">
+    update by_student
+    set name = #{name,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      classes = #{classes,jdbcType=VARCHAR},
+      student_number = #{studentNumber,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>-->
+</mapper>

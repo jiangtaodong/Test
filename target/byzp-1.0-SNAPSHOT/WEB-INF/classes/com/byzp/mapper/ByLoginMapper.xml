@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.byzp.mapper.ByLoginMapper">
+  <!--<resultMap id="BaseResultMap" type="com.byzp.pojo.ByLogin">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="identity" jdbcType="VARCHAR" property="identity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, username, password, identity
+  </sql>-->
+
+  <select id="login" parameterType="com.byzp.pojo.ByLogin" resultType="int">
+
+    select count(*) from by_login where username=#{username} and password=#{password}
+
+  </select>
+
+  <select id="selectloginusernamebyusername" parameterType="String" resultType="int">
+
+    select count(*) from by_login where username=#{username}
+
+  </select>
+
+  <select id="selectall" resultType="com.byzp.pojo.ByLogin">
+
+    select * from by_login order by time desc
+
+  </select>
+
+  <update id="updatepassword" parameterType="com.byzp.pojo.ByLogin">
+
+    update by_login set password=#{password} where username=#{username}
+
+  </update>
+
+  <insert id="insertbyloginuser" parameterType="com.byzp.pojo.ByStudent">
+
+    insert into by_login set username=#{identity_number},password=#{identity_number},identity=#{identity},time=now();
+
+  </insert>
+
+  <select id="selectusername" parameterType="String">
+
+    select count(*) from by_login where username=#{username}
+
+  </select>
+
+  <delete id="deleteloginuserbyid" parameterType="int">
+
+    delete from by_login where id=#{id}
+
+  </delete>
+
+  <delete id="deleteuserbyid" parameterType="int">
+
+    delete from by_login where id=#{id}
+
+  </delete>
+
+  <select id="selectuserbyid" parameterType="int" resultType="com.byzp.pojo.ByLogin">
+
+    select * from by_login where id=#{id}
+
+  </select>
+
+  <update id="updateuserbyid" parameterType="com.byzp.pojo.ByLogin">
+
+    update by_login set username=#{username},password=#{password},identity=#{identity},time=now() where id=#{id}
+
+  </update>
+
+  <select id="checkloginidentity" parameterType="com.byzp.pojo.ByLogin" resultType="com.byzp.pojo.ByLogin">
+
+    select identity from by_login where username=#{username}
+
+  </select>
+
+  <select id="selectidentity" resultType="com.byzp.pojo.ByLogin">
+
+    select distinct(identity) from by_login
+
+  </select>
+
+  <select id="selectloginbyidentity" parameterType="String" resultType="com.byzp.pojo.ByLogin">
+
+    select * from by_login where identity=#{identity}
+
+  </select>
+
+ <!-- <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from by_login
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from by_login
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.byzp.pojo.ByLogin">
+    insert into by_login (id, username, password, 
+      identity)
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{identity,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.byzp.pojo.ByLogin">
+    insert into by_login
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="identity != null">
+        identity,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null">
+        #{identity,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.byzp.pojo.ByLogin">
+    update by_login
+    <set>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null">
+        identity = #{identity,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.byzp.pojo.ByLogin">
+    update by_login
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      identity = #{identity,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.byzp.pojo.ByLogin">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="identity" jdbcType="VARCHAR" property="identity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, username, password, identity
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from by_login
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from by_login
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.byzp.pojo.ByLogin">
+    insert into by_login (id, username, password, 
+      identity)
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{identity,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.byzp.pojo.ByLogin">
+    insert into by_login
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="identity != null">
+        identity,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null">
+        #{identity,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.byzp.pojo.ByLogin">
+    update by_login
+    <set>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null">
+        identity = #{identity,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.byzp.pojo.ByLogin">
+    update by_login
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      identity = #{identity,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.byzp.pojo.ByLogin">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="identity" jdbcType="VARCHAR" property="identity" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, username, password, identity
+  </sql>
+
+  <select id="login" parameterType="com.byzp.pojo.ByLogin" resultType="int">
+
+    select count(*) from by_login where username=#{username} and password=#{password}
+
+  </select>
+
+  <select id="selectall" resultMap="BaseResultMap">
+
+    select * from by_login
+
+  </select>
+
+  <update id="updatepassword" parameterType="String">
+
+    update
+      by_login
+    set
+      password=#{password}
+    where
+      username=#{username}
+
+  </update>
+
+  <insert id="insertbyloginuser" parameterType="com.byzp.pojo.ByStudent">
+
+    insert
+    into
+      by_login
+    set
+      username=#{identityNumber},password=#{identityNumber},identity=#{identity}
+
+
+  </insert>
+
+  <select id="selectusername" parameterType="String" resultType="int">
+
+      select
+        count(*)
+      from
+        by_login
+      where
+        username=#{username}
+
+  </select>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from by_login
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from by_login
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.byzp.pojo.ByLogin">
+    insert into by_login (id, username, password
+      )
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.byzp.pojo.ByLogin">
+    insert into by_login
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.byzp.pojo.ByLogin">
+    update by_login
+    <set>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.byzp.pojo.ByLogin">
+    update by_login
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>-->
+</mapper>

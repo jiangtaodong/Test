@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.byzp.mapper.ByWeatherMapper">
+
+        <insert id="insertweather" parameterType="com.byzp.pojo.ByWeather">
+
+            insert into by_weather set cityX=#{cityX},cityY=#{cityY},cityname=#{cityname},centername=#{centername}
+            ,fontColor=#{fontColor},pyName=#{pyName},state1=#{state1},state2=#{state2},stateDetailed=#{stateDetailed},tem1=#{tem1}
+            ,tem2=#{tem2},temNow=#{temNow},windState=#{windState},windDir=#{windDir},windPower=#{windPower},humidity=#{humidity},
+            time=#{time},url=#{url},inserttime=#{inserttime}
+
+        </insert>
+
+        <select id="selectweatherbyinserttime" parameterType="String" resultType="com.byzp.pojo.ByWeather">
+
+            select * from by_weather where inserttime like concat(#{time},"%")
+
+        </select>
+
+    <select id="selectallcity" resultType="com.byzp.pojo.ByWeather">
+
+        select distinct(cityname) from by_weather
+
+    </select>
+
+    <select id="selectweatherbycityname" parameterType="String" resultType="com.byzp.pojo.ByWeather">
+
+        select * from by_weather where cityname=#{cityname} order by inserttime desc
+
+    </select>
+
+    <select id="countweatherdata" resultType="int">
+
+        select count(*) from by_weather
+
+    </select>
+
+    <delete id="clearweatherdata">
+
+        delete from by_weather
+        where
+          id in(select * from (select id from by_weather limit 0,110)byweather)
+
+    </delete>
+
+</mapper>

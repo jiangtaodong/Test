@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="byzp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e954b0c2-db39-4871-b534-5597ad22c3b6" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/byzp$mstest.coverage" NAME="mstest Coverage Results" MODIFIED="1545217695997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.byzp.test.mstest.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="test@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="test@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3876">
+              <caret line="204" column="37" lean-forward="false" selection-start-line="204" selection-start-column="37" selection-end-line="204" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage-admin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+                <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>insertuser</find>
+      <find>time</find>
+      <find>identity</find>
+      <find>window</find>
+      <find>tubiaohui</find>
+      <find>tubiao</find>
+      <find>shuju</find>
+      <find>shuj</find>
+      <find>input#f-product3</find>
+      <find>owl</find>
+      <find>学生信息查询</find>
+      <find>city</find>
+      <find>\</find>
+      <find>pagehelper</find>
+      <find>.eq()</find>
+      <find>eq</find>
+      <find>junit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/Socket_Client1.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/Server_Socket.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/TestIo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/TestFanShePoJo.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/TestMethodClass.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/TestFanShe.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/TestFanSheMain.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/com/byzp/test/TestFanSheLodingFile.java" />
+        <option value="$PROJECT_DIR$/src/test/Resources/pro.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/util/TestFanSheList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/util/PageInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/mapper/ByStudentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/mapper/ByStudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByStudentServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-teacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/TestJedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testFastDFSUpload.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/TestFastDFSUpload.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testactivemq/TestQueueProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testactivemq/TestQueueConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/mapper/ByTeacherMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/service/ByStudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/service/ByTeacherService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/mapper/ByTeacherMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/mstest/RunThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/mstest/ThreadThree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/mstest/ThreadTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/mstest/ThreadOne.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/18d5ba88-b870-43fa-99de-4ec55a7c835c/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testaop/Persion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testaop/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testaop/TestAOP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testaop/AspectJTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/testaop/TestAop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/TestDiGui.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/test/mstest/mstest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByTeacherServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/controller/CountController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\mavenrepository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="byzp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="byzp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="24" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring BatchSpring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>Spring WebSocketSpring</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spring</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byzp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byzp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog-SpringBoot" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Oracle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideawork\byzp\src\main\resources" />
+      <recent name="D:\ideawork\byzp\src\main\java\com\byzp\mapper" />
+      <recent name="D:\ideawork\byzp\src\main\webapp\js" />
+      <recent name="D:\ideawork\byzp\src\main\webapp\images" />
+      <recent name="D:\ideawork\byzp\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.byzp.test" />
+      <recent name="com.byzp.util" />
+      <recent name="com.byzp.service" />
+      <recent name="com.byzp.mapper" />
+      <recent name="com.byzp.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideawork\byzp\src\main\resources" />
+      <recent name="D:\ideawork\byzp\src\main\java\com\byzp\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.mstest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="RunThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.byzp.test.mstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.byzp.test.mstest.RunThread" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="byzp" />
+      <envs />
+    </configuration>
+    <configuration name="TestAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.byzp.test.testaop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.byzp.test.testaop.TestAop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="byzp" />
+      <envs />
+    </configuration>
+    <configuration name="TestDiGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.byzp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.byzp.test.TestDiGui" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="byzp" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="mstest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.byzp.test.mstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.byzp.test.mstest.mstest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="byzp" />
+      <envs />
+    </configuration>
+    <configuration name="TestQueueConsumer.testQueueConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.byzp.test.testactivemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="byzp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.byzp.test.testactivemq" />
+      <option name="MAIN_CLASS_NAME" value="com.byzp.test.testactivemq.TestQueueConsumer" />
+      <option name="METHOD_NAME" value="testQueueConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="byzp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_byzp" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61367" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="byzp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat8" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestQueueConsumer.testQueueConsumer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.mstest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RunThread" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestAop" />
+      <item index="5" class="java.lang.String" itemvalue="Application.TestDiGui" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.mstest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestDiGui" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestAop" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RunThread" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestQueueConsumer.testQueueConsumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e954b0c2-db39-4871-b534-5597ad22c3b6" name="Default" comment="" />
+      <created>1528740647278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528740647278</updated>
+      <workItem from="1528740652526" duration="4677000" />
+      <workItem from="1528776175993" duration="12355000" />
+      <workItem from="1528798500494" duration="11209000" />
+      <workItem from="1528863599210" duration="24422000" />
+      <workItem from="1528949541341" duration="29955000" />
+      <workItem from="1529040649996" duration="30246000" />
+      <workItem from="1529127125114" duration="1143000" />
+      <workItem from="1529128315652" duration="5863000" />
+      <workItem from="1529221694036" duration="3094000" />
+      <workItem from="1529250855607" duration="1949000" />
+      <workItem from="1529308579425" duration="3380000" />
+      <workItem from="1529852620658" duration="1350000" />
+      <workItem from="1533789121726" duration="10068000" />
+      <workItem from="1534571432303" duration="11787000" />
+      <workItem from="1534658033852" duration="10887000" />
+      <workItem from="1534742657293" duration="13055000" />
+      <workItem from="1534914254088" duration="13127000" />
+      <workItem from="1535004082807" duration="12437000" />
+      <workItem from="1535173677204" duration="12532000" />
+      <workItem from="1535262826855" duration="12249000" />
+      <workItem from="1535352219600" duration="9294000" />
+      <workItem from="1535518867064" duration="12816000" />
+      <workItem from="1535606254909" duration="13794000" />
+      <workItem from="1535696625897" duration="10341000" />
+      <workItem from="1535870150428" duration="10180000" />
+      <workItem from="1535952597129" duration="13545000" />
+      <workItem from="1536038774132" duration="10896000" />
+      <workItem from="1536213344568" duration="13821000" />
+      <workItem from="1536297197783" duration="15318000" />
+      <workItem from="1536379566568" duration="17925000" />
+      <workItem from="1536556274548" duration="15722000" />
+      <workItem from="1536642744905" duration="15266000" />
+      <workItem from="1536729223848" duration="12737000" />
+      <workItem from="1536818259221" duration="11726000" />
+      <workItem from="1536903233434" duration="171000" />
+      <workItem from="1536904636863" duration="10877000" />
+      <workItem from="1536986679447" duration="16281000" />
+      <workItem from="1537081193281" duration="9690000" />
+      <workItem from="1537168363866" duration="7723000" />
+      <workItem from="1537247545072" duration="12047000" />
+      <workItem from="1537334342966" duration="13383000" />
+      <workItem from="1537421056757" duration="15896000" />
+      <workItem from="1537506600277" duration="13104000" />
+      <workItem from="1537685131291" duration="7917000" />
+      <workItem from="1537855519186" duration="61000" />
+      <workItem from="1537855612967" duration="11987000" />
+      <workItem from="1537947904770" duration="7085000" />
+      <workItem from="1538970503361" duration="441000" />
+      <workItem from="1538973915217" duration="864000" />
+      <workItem from="1539326526592" duration="3291000" />
+      <workItem from="1539357333074" duration="9032000" />
+      <workItem from="1539417835427" duration="3087000" />
+      <workItem from="1539508785214" duration="603000" />
+      <workItem from="1539509652203" duration="929000" />
+      <workItem from="1539593768993" duration="4612000" />
+      <workItem from="1539760180083" duration="727000" />
+      <workItem from="1539767359956" duration="4777000" />
+      <workItem from="1540305645050" duration="1111000" />
+      <workItem from="1540358436827" duration="3841000" />
+      <workItem from="1540606965209" duration="68000" />
+      <workItem from="1541129491967" duration="352000" />
+      <workItem from="1541408805821" duration="1819000" />
+      <workItem from="1541485389892" duration="3037000" />
+      <workItem from="1541689358216" duration="2018000" />
+      <workItem from="1541929327341" duration="295000" />
+      <workItem from="1542004764599" duration="58000" />
+      <workItem from="1542209584107" duration="3913000" />
+      <workItem from="1542253477774" duration="4407000" />
+      <workItem from="1542300089088" duration="3177000" />
+      <workItem from="1542380063750" duration="679000" />
+      <workItem from="1542878608478" duration="650000" />
+      <workItem from="1543070114899" duration="748000" />
+      <workItem from="1543829792502" duration="427000" />
+      <workItem from="1543830273063" duration="68000" />
+      <workItem from="1545141176142" duration="1880000" />
+      <workItem from="1545214723149" duration="2700000" />
+      <workItem from="1545544906857" duration="3783000" />
+      <workItem from="1546322914671" duration="622000" />
+      <workItem from="1546499501927" duration="204000" />
+      <workItem from="1546505170340" duration="4015000" />
+      <workItem from="1546849618107" duration="65000" />
+    </task>
+    <task id="LOCAL-00001" summary="20190103-commit">
+      <created>1546507048863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546507048863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestFastDFSUpload_testFsatDFSUpload - 2018.10.13 at 17h 57m 26s.xml">
+      <configuration name="TestFastDFSUpload.testFsatDFSUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFastDFSUpload_testFsatDFSUpload - 2018.10.13 at 18h 49m 22s.xml">
+      <configuration name="TestFastDFSUpload.testFsatDFSUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueConsumer_testQueueConsumer - 2018.10.15 at 17h 52m 29s.xml">
+      <configuration name="TestQueueConsumer.testQueueConsumer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueConsumer_testQueueConsumer - 2018.10.15 at 17h 54m 25s.xml">
+      <configuration name="TestQueueConsumer.testQueueConsumer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueConsumer_testQueueConsumer - 2018.10.17 at 18h 13m 46s.xml">
+      <configuration name="TestQueueConsumer.testQueueConsumer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueProducer_testQueueProducer - 2018.10.15 at 17h 20m 03s.xml">
+      <configuration name="TestQueueProducer.testQueueProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueProducer_testQueueProducer - 2018.10.15 at 17h 22m 47s.xml">
+      <configuration name="TestQueueProducer.testQueueProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueProducer_testQueueProducer - 2018.10.15 at 17h 23m 26s.xml">
+      <configuration name="TestQueueProducer.testQueueProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueProducer_testQueueProducer - 2018.10.15 at 17h 25m 10s.xml">
+      <configuration name="TestQueueProducer.testQueueProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueueProducer_testQueueProducer - 2018.10.15 at 17h 25m 58s.xml">
+      <configuration name="TestQueueProducer.testQueueProducer" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="603688000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8486842" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6940789" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256579" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39107412" sideWeight="0.4816626" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.5183374" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39802632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54605263" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8489327" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7372742" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3139183" sideWeight="0.4816626" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.295764" sideWeight="0.5183374" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20190103-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190103-commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/byzp/controller/TeacherController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java</url>
+          <line>248</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/byzp/util/TestSocket.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/byzp/util/TestServerSocket.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="204" column="37" lean-forward="false" selection-start-line="204" selection-start-column="37" selection-end-line="204" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2888">
+          <caret line="152" column="17" lean-forward="false" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2888">
+          <caret line="152" column="17" lean-forward="false" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12559">
+          <caret line="661" column="29" lean-forward="false" selection-start-line="661" selection-start-column="29" selection-end-line="661" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByStudentServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2888">
+          <caret line="152" column="17" lean-forward="false" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12559">
+          <caret line="661" column="29" lean-forward="false" selection-start-line="661" selection-start-column="29" selection-end-line="661" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByStudentServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="28" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2888">
+          <caret line="152" column="17" lean-forward="false" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12559">
+          <caret line="661" column="29" lean-forward="false" selection-start-line="661" selection-start-column="29" selection-end-line="661" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByStudentServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="28" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2888">
+          <caret line="152" column="17" lean-forward="false" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12559">
+          <caret line="661" column="29" lean-forward="false" selection-start-line="661" selection-start-column="29" selection-end-line="661" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByStudentServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="28" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/service/serviceimpl/ByStudentServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12559">
+          <caret line="661" column="29" lean-forward="false" selection-start-line="661" selection-start-column="29" selection-end-line="661" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/homepage-admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537954857076" expanded="true" signature="5058:5085" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5199:5210" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="5986:5997" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6178:6189" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6752:6763" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="6939:6950" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7124:7135" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="7750:7768" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="8652:8679" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11376:11433" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11533:11550" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="11870:11888" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12052:12070" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="12610:12627" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="13181:13199" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="15470:15488" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18262:18276" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18315:18332" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18400:18410" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="18474:18486" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="22363:22420" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23257:23267" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="23707:23724" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="24022:24057" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25458:25515" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="25910:25928" ph="..." />
+            <marker date="1537954857076" expanded="true" signature="27053:27071" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="204" column="37" lean-forward="false" selection-start-line="204" selection-start-column="37" selection-end-line="204" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/byzp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>byzp:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>byzp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
